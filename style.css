@@ -1,0 +1,32 @@
+body {
+  background: lightgray;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+#users-container {
+  width: 1170px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+.user-card {
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.user-email {
+  display: block;
+}
+.user-card button {
+  padding: 10px 20px;
+  background: teal;
+  outline: none;
+  border: none;
+  margin: 20px 0;
+  color: white;
+  border-radius: 5px;
+}
